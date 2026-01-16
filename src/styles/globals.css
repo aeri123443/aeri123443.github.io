@@ -9,7 +9,7 @@ main {
   min-width: 100vw;
   min-height: 100vh;
   box-sizing: border-box;
-  background-image: url('src/assets/main.webp');
+  background-image: url('/assets/main.webp');
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
