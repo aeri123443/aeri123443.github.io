@@ -1,0 +1,45 @@
+@import './variables.css';
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  min-width: 100vw;
+  min-height: 100vh;
+  box-sizing: border-box;
+  background-image: url('src/assets/main.webp');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  text-align: left;
+}
+
+h2 {
+    margin: 0;
+    color: var(--color-text-secondary);
+    font-size: var(--font-h2);
+    font-family: var(--font-heading);
+    font-weight: var(--fw-bold);
+}
+
+h2 strong,
+h2 b {
+    color: var(--color-text-primary);
+    font-size: var(--font-h2-bold);
+    font-weight: var(--fw-extrabold);
+}
+
+h5 {
+    margin: 0;
+    color: var(--color-text-tertiary);
+    font-size: var(--font-h5);
+    font-family: var(--font-body);
+    font-weight: var(--fw-regular);
+}
+
+h5 b{
+    color: var(--color-text-primary);
+    font-weight: var(--fw-bold);
+}
