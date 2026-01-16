@@ -1,0 +1,19 @@
+.main-home{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100vh;
+  padding: 48px 48px;
+}
+
+.header-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 70%;
+  width: 100%;
+}
+
+.h5-main{
+    text-align: right;
+}
