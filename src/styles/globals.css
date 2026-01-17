@@ -1,19 +1,19 @@
 @import './variables.css';
 
-body {
+html,body {
   margin: 0;
   padding: 0;
+  font-family: var(--font-body);
+  color: var(--color-text-tertiary);
+  background-color: #000;
+  overscroll-behavior: none;
 }
 
 main {
-  min-width: 100vw;
+  width: 100%;
   min-height: 100vh;
+  padding: 48px 48px;
   box-sizing: border-box;
-  background-image: url('/assets/main.webp');
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: cover;
-  text-align: left;
 }
 
 h2 {
@@ -31,6 +31,12 @@ h2 b {
     font-weight: var(--fw-extrabold);
 }
 
+h3 {
+    color: var(--color-text-secondary);
+    font-size: var(--font-h3);
+    font-weight: var(--fw-thin);    
+}
+
 h5 {
     margin: 0;
     color: var(--color-text-tertiary);
@@ -42,4 +48,20 @@ h5 {
 h5 b{
     color: var(--color-text-primary);
     font-weight: var(--fw-bold);
+}
+
+ul {
+    margin: 0;
+}
+
+p {
+    color: var(--color-text-tertiary);
+    font-weight: var(--fw-regular);
+}
+
+p b{
+    color: var(--color-text-primary);
+    font-family: var(--font-heading);
+    font-weight: var(--fw-bold);
+    font-size: var(--font-h5);
 }

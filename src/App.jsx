@@ -3,9 +3,13 @@
 // import viteLogo from '/vite.svg'
 import './App.css'
 import Home from './pages/Home/Home';
+import Activities from './pages/Activities/Activities';
 
 function App() {
-  return <Home />;
+  return <>
+  <Home />
+  <Activities />
+  </>;
 }
 
 // function App() {
